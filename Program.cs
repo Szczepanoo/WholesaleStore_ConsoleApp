@@ -140,7 +140,7 @@
             Console.WriteLine("By logging in, the user consents to the processing of his personal data by the Board of \nJacob Digital Enterprise and designated persons.");
             Console.WriteLine();
             Console.WriteLine();
-            Console.WriteLine("Enter your login to proceed. If you don't have an account you will be able to create one.");
+            Console.WriteLine("Enter your login to proceed. If you don't have an account you will be able to create one or continue as guest.");
             Console.Write("Login: ");
             string? EnteredLogin = Console.ReadLine();
 
@@ -267,7 +267,7 @@
                     }
                 }
             }
-
+            Console.Clear();
             Console.WriteLine($"\nHi {CurrentName},\nPress any key to check our product list. ");
             Console.ReadKey();
 
